@@ -1,4 +1,5 @@
 output/table_one.rds: code/01_table_one.R data/f75_interim_clean.rds
 	Rscript code/01_table_one.R
-	.PHONY:
+
+.PHONY:
 clean:
